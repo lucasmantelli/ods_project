@@ -31,22 +31,22 @@
     }
     function createPlaceholder() {
       const placeholder = document.createElement("div");
-      placeholder.className = "aspect-[4/3] w-full bg-primary-bg";
+      placeholder.className = "w-full h-full bg-primary-bg";
       return placeholder;
     }
     function createCard(artigo) {
       const card = document.createElement("article");
       card.className =
-        "aspect-[4/3] flex flex-col bg-white border border-gray-200 rounded-xl p-3 shadow-sm";
+        "flex flex-col bg-white border border-gray-200 rounded-xl p-3 shadow-sm";
 
       const media = document.createElement("div");
-      media.className = "bg-primary-bg rounded-lg mb-3 overflow-hidden";
+      media.className =
+        "aspect-[4/3] bg-primary-bg rounded-lg mb-3 overflow-hidden";
       if (artigo.imagem) {
         const img = document.createElement("img");
         img.src = artigo.imagem;
         img.alt = artigo.titulo ?? "";
         img.className = "w-full h-full object-cover";
-        // Se a imagem não carregar (caminho errado, arquivo ausente), mostra o placeholder
         img.addEventListener("error", () =>
           img.replaceWith(createPlaceholder()),
         );
