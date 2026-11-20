@@ -63,7 +63,7 @@
       author.textContent = artigo.autor ?? "";
 
       const button = document.createElement("a");
-      button.href = `artigo.html?slug=${encodeURIComponent(artigo.id)}`;
+      button.href = `golpe.html?slug=${encodeURIComponent(artigo.id)}`;
       button.className =
         "mt-4 block text-center border-2 border-primary text-primary font-medium rounded-lg py-2 " +
         "hover:bg-primary hover:text-white transition-colors";

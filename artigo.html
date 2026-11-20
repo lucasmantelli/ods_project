@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ods_project</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <script src="https://kit.fontawesome.com/d5d2b74240.js" crossorigin="anonymous"></script>
+    <script src="/src/articleSetup.js" defer></script>
+</head>
+
+<body class="min-h-screen flex flex-col">
+    <nav class="bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between">
+            <div class="flex items-center h-16 gap-2">
+                <a href="/" class="flex items-center">
+                    <i
+                        class="fas fa-home border rounded p-3 hover:bg-primary-dark hover:text-white text-primary hover:text-primary-dark"></i>
+                </a>
+                <a href="/" class="text-xl font-bold text-gray-900">MeuSite</a>
+            </div>
+
+            <input type="checkbox" id="menu-toggle" class="peer hidden" />
+
+            <label for="menu-toggle" class="md:hidden p-2 text-primary hover:text-primary-dark cursor-pointer">
+                <i class="fas fa-bars text-2xl"></i>
+            </label>
+
+            <ul
+                class="hidden peer-checked:flex flex-col w-full pb-4 gap-2 md:flex md:flex-row md:w-auto md:pb-0 md:gap-8 md:items-center">
+                <li>
+                    <a href="/" class="block py-2 text-primary hover:text-primary-dark">Início</a>
+                </li>
+                <li>
+                    <a href="/tutorials.html" class="block py-2 text-primary hover:text-primary-dark">Tutoriais</a>
+                </li>
+                <li>
+                    <a href="/golpes.html" class="block py-2 text-primary hover:text-primary-dark">Golpes</a>
+                </li>
+                <li>
+                    <a href="#" class="block py-2 text-primary hover:text-primary-dark">Sobre</a>
+                </li>
+                <li>
+                    <a href="#" class="block py-2 text-primary hover:text-primary-dark">Glossário</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="flex-1">
+        <div class="max-w-3xl mx-auto px-4 py-8">
+            <a href="/tutorials.html" id="back-link"
+                class="inline-block border-2 border-primary text-primary rounded-lg px-4 py-1 mb-6 hover:bg-primary hover:text-white transition-colors">
+                Voltar
+            </a>
+
+            <header class="mb-8">
+                <h1 id="article-title" class="text-3xl font-bold text-primary-dark"></h1>
+                <p id="article-subtitle" class="text-gray-500 mt-1"></p>
+            </header>
+
+            <article class="prose"></article>
+        </div>
+    </main>
+
+    <footer class="mt-auto">
+        <div class="bg-white border-t border-gray-200 py-6">
+            <div class="max-w-7xl mx-auto px-4">
+                <p class="text-center text-gray-500">Projeto acadêmico – UFFS | Ciência da Computação | ODS 4.</p>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
