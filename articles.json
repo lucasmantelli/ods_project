@@ -1,6 +1,7 @@
 [
   {
     "id": "gov",
+    "imagem": "/src/assets/gov.png",
     "titulo": "Lorem ipsum dolor sit amet consectetur",
     "autor": "Lorem Ipsum",
     "data": "2026-11-18",
@@ -9,6 +10,7 @@
   },
   {
     "id": "pix",
+    "imagem": "/src/assets/pix.jpeg",
     "titulo": "Sed ut perspiciatis unde omnis iste natus gov",
     "autor": "Dolor Sit",
     "data": "2026-11-17",
