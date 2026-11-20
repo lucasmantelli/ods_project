@@ -6,3 +6,9 @@
   --color-primary-light: #79e2f2;
   --color-primary-bg: #e5fcff;
 }
+
+@layer base {
+  .unformated * {
+    all: revert-layer;
+  }
+}
