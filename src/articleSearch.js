@@ -10,9 +10,12 @@
     const searchInput = document.getElementById("search-input");
     const searchButton = document.getElementById("search-button");
     function updateFilteredArticles() {
-      return Array.from(artigos).filter((artigo) =>
-        artigo.titulo.toLowerCase().includes(searchInput.value.toLowerCase()),
-      );
+      return Array.from(artigos)
+        .filter((artigo) => artigo.type === "article")
+
+        .filter((artigo) =>
+          artigo.titulo.toLowerCase().includes(searchInput.value.toLowerCase()),
+        );
     }
     function displayArticles(filteredArticles) {
       container.innerHTML = "";
@@ -27,6 +30,11 @@
         container.appendChild(createCard(artigo));
       });
     }
+    function createPlaceholder() {
+      const placeholder = document.createElement("div");
+      placeholder.className = "aspect-[4/3] w-full bg-primary-bg";
+      return placeholder;
+    }
     function createCard(artigo) {
       const card = document.createElement("article");
       card.className =
@@ -34,12 +42,19 @@
 
       const media = document.createElement("div");
       media.className = "bg-primary-bg rounded-lg mb-3 overflow-hidden";
-      const img = document.createElement("img");
-      img.src = artigo.imagem;
-      img.alt = artigo.titulo ?? "";
-      img.className = "w-full h-full object-cover";
-      media.appendChild(img);
-
+      if (artigo.imagem) {
+        const img = document.createElement("img");
+        img.src = artigo.imagem;
+        img.alt = artigo.titulo ?? "";
+        img.className = "w-full h-full object-cover";
+        // Se a imagem não carregar (caminho errado, arquivo ausente), mostra o placeholder
+        img.addEventListener("error", () =>
+          img.replaceWith(createPlaceholder()),
+        );
+        media.appendChild(img);
+      } else {
+        media.appendChild(createPlaceholder());
+      }
       const title = document.createElement("h3");
       title.className = "font-bold text-primary-dark mb-1 line-clamp-2";
       title.textContent = artigo.titulo;

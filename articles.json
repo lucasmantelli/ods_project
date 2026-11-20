@@ -1,6 +1,7 @@
 [
   {
     "id": "gov",
+    "type": "article",
     "imagem": "/src/assets/gov.png",
     "titulo": "Lorem ipsum dolor sit amet consectetur",
     "autor": "Lorem Ipsum",
@@ -10,7 +11,26 @@
   },
   {
     "id": "pix",
+    "type": "article",
     "imagem": "/src/assets/pix.jpeg",
+    "titulo": "Sed ut perspiciatis unde omnis iste natus gov",
+    "autor": "Dolor Sit",
+    "data": "2026-11-17",
+    "tags": ["sit", "amet", "consectetur"],
+    "html": "<p class=\"lead\">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>\n\n<p>Nemo enim ipsam voluptatem quia voluptas sit <em>aspernatur aut odit</em> aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, <a href=\"#\">qui dolorem ipsum</a> quia dolor sit amet.</p>\n\n<h2>Consectetur adipisci velit</h2>\n\n<p>Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem.</p>\n\n<ul>\n  <li><strong>Lorem ipsum:</strong> dolor sit amet, consectetur adipiscing.</li>\n  <li><strong>Sed do:</strong> eiusmod tempor incididunt ut labore.</li>\n  <li><strong>Ut enim:</strong> ad minim veniam, quis nostrud exercitation.</li>\n</ul>\n\n<h3>Ullam corporis suscipit laboriosam</h3>\n\n<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur. Rode o comando <code>npm run lorem</code> e veja o resultado:</p>\n\n<pre><code>function ipsum(dolor) {\n  return dolor\n    .split(\" \")\n    .map((sit) =&gt; sit.toUpperCase())\n    .join(\"-\");\n}\n\nconsole.log(ipsum(\"lorem ipsum dolor\"));</code></pre>\n\n<blockquote>\n  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p>\n</blockquote>\n\n<h4>Excepteur sint occaecat</h4>\n\n<p>Cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Et harum quidem rerum facilis est et expedita distinctio.</p>\n\n<ol>\n  <li>\n    <p>Nam libero tempore, cum soluta nobis est eligendi.</p>\n    <ul>\n      <li>Optio cumque nihil impedit.</li>\n      <li>Quo minus id quod maxime placeat.</li>\n    </ul>\n  </li>\n  <li>\n    <p>Facere possimus, omnis voluptas assumenda est.</p>\n  </li>\n</ol>\n\n<figure>\n  <img src=\"https://picsum.photos/seed/lorem2/1200/600\" alt=\"Dolor sit amet imagem\" />\n  <figcaption>Temporibus autem quibusdam et aut officiis debitis.</figcaption>\n</figure>\n\n<hr />\n\n<h2>Nam libero tempore</h2>\n\n<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>\n\n<p>Omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint.</p>"
+  },
+  {
+    "id": "golpe1",
+    "type": "scam",
+    "titulo": "Sed ut perspiciatis unde omnis iste natus gov",
+    "autor": "Dolor Sit",
+    "data": "2026-11-17",
+    "tags": ["sit", "amet", "consectetur"],
+    "html": "<p class=\"lead\">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>\n\n<p>Nemo enim ipsam voluptatem quia voluptas sit <em>aspernatur aut odit</em> aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, <a href=\"#\">qui dolorem ipsum</a> quia dolor sit amet.</p>\n\n<h2>Consectetur adipisci velit</h2>\n\n<p>Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem.</p>\n\n<ul>\n  <li><strong>Lorem ipsum:</strong> dolor sit amet, consectetur adipiscing.</li>\n  <li><strong>Sed do:</strong> eiusmod tempor incididunt ut labore.</li>\n  <li><strong>Ut enim:</strong> ad minim veniam, quis nostrud exercitation.</li>\n</ul>\n\n<h3>Ullam corporis suscipit laboriosam</h3>\n\n<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur. Rode o comando <code>npm run lorem</code> e veja o resultado:</p>\n\n<pre><code>function ipsum(dolor) {\n  return dolor\n    .split(\" \")\n    .map((sit) =&gt; sit.toUpperCase())\n    .join(\"-\");\n}\n\nconsole.log(ipsum(\"lorem ipsum dolor\"));</code></pre>\n\n<blockquote>\n  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p>\n</blockquote>\n\n<h4>Excepteur sint occaecat</h4>\n\n<p>Cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Et harum quidem rerum facilis est et expedita distinctio.</p>\n\n<ol>\n  <li>\n    <p>Nam libero tempore, cum soluta nobis est eligendi.</p>\n    <ul>\n      <li>Optio cumque nihil impedit.</li>\n      <li>Quo minus id quod maxime placeat.</li>\n    </ul>\n  </li>\n  <li>\n    <p>Facere possimus, omnis voluptas assumenda est.</p>\n  </li>\n</ol>\n\n<figure>\n  <img src=\"https://picsum.photos/seed/lorem2/1200/600\" alt=\"Dolor sit amet imagem\" />\n  <figcaption>Temporibus autem quibusdam et aut officiis debitis.</figcaption>\n</figure>\n\n<hr />\n\n<h2>Nam libero tempore</h2>\n\n<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>\n\n<p>Omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint.</p>"
+  },
+  {
+    "id": "golpe2",
+    "type": "scam",
     "titulo": "Sed ut perspiciatis unde omnis iste natus gov",
     "autor": "Dolor Sit",
     "data": "2026-11-17",
