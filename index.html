@@ -6,30 +6,98 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ods_project</title>
   <link rel="stylesheet" href="/src/style.css" />
+  <script src="https://kit.fontawesome.com/d5d2b74240.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="min-h-screen flex flex-col">
   <nav class="bg-white border-b border-gray-200">
-    <div class="max-w-6xl mx-auto px-4 flex flex-wrap items-center justify-between">
-      <a href="#" class="text-xl font-bold text-gray-900 h-16 flex items-center">MeuSite</a>
+    <div class="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between">
+      <div class="flex items-center h-16 gap-2">
+        <a href="#" class="flex items-center">
+          <i
+            class="fas fa-home border rounded p-3 hover:bg-primary-dark hover:text-white text-primary hover:text-primary-dark"></i>
+        </a>
+        <a href="#" class="text-xl font-bold text-gray-900">MeuSite</a>
+      </div>
 
       <input type="checkbox" id="menu-toggle" class="peer hidden" />
 
-      <label for="menu-toggle" class="md:hidden p-2 text-gray-700 cursor-pointer">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-          <path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
+      <label for="menu-toggle" class="md:hidden p-2 text-primary hover:text-primary-dark cursor-pointer">
+        <i class="fas fa-bars text-2xl"></i>
       </label>
 
-      <ul class="hidden peer-checked:flex flex-col w-full pb-4 gap-2
-               md:flex md:flex-row md:w-auto md:pb-0 md:gap-8 md:items-center">
-        <li><a href="#" class="block py-2 text-gray-600 hover:text-gray-900">Início</a></li>
-        <li><a href="#" class="block py-2 text-gray-600 hover:text-gray-900">Sobre</a></li>
-        <li><a href="#" class="block py-2 text-gray-600 hover:text-gray-900">Projetos</a></li>
-        <li><a href="#" class="block py-2 text-gray-600 hover:text-gray-900">Contato</a></li>
+      <ul
+        class="hidden peer-checked:flex flex-col w-full pb-4 gap-2 md:flex md:flex-row md:w-auto md:pb-0 md:gap-8 md:items-center">
+        <li>
+          <a href="#" class="block py-2 text-primary hover:text-primary-dark">Início</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 text-primary hover:text-primary-dark">Tutoriais</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 text-primary hover:text-primary-dark">Golpes</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 text-primary hover:text-primary-dark">Sobre</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 text-primary hover:text-primary-dark">Glossário</a>
+        </li>
       </ul>
     </div>
   </nav>
+
+  <main class="flex-1">
+    <section class="bg-primary-bg-light py-12">
+      <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <div class="text-left flex flex-col justify-center gap-4">
+          <h1 class="text-5xl font-bold text-gray-900 mb-4">Aprenda a usar a internet
+            com segurança</h1>
+          <p class="text-gray-700">Tutoriais simples, passo a passo, para o seu dia a dia.</p>
+          <button type="button"
+            class="bg-primary text-white px-9 py-3 rounded-lg hover:bg-primary-dark transition-colors w-max">Ver
+            tutoriais </button>
+        </div>
+        <img src="/src/assets/homeImage.jpg" alt="Imagem de destaque"
+          class="w-full h-full max-h-200 rounded-2xl max-w-200 object-cover hidden md:block" />
+      </div>
+    </section>
+
+    <section class="py-12">
+      <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md md:h-60 flex flex-col">
+          <h2 class="text-xl font-semibold text-gray-900 mb-2">Tutoriais</h2>
+          <p class="text-gray-600">Passo a passo para usar aplicativos, redes sociais e serviços online com segurança.
+          </p>
+          <div class="mt-auto pt-4 text-end text-primary">Acessar <i class="fas fa-arrow-right"></i></div>
+        </div>
+
+        <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md md:h-60 flex flex-col">
+          <h2 class="text-xl font-semibold text-gray-900 mb-2">Golpes</h2>
+          <p class="text-gray-600">Conheça os golpes mais comuns na internet e saiba como se proteger.</p>
+          <div class="mt-auto pt-4 text-end text-primary">Acessar <i class="fas fa-arrow-right"></i></div>
+
+        </div>
+
+        <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md md:h-60 flex flex-col">
+          <h2 class="text-xl font-semibold text-gray-900 mb-2">Glossário</h2>
+          <p class="text-gray-600">Entenda os termos técnicos da internet explicados de forma simples.</p>
+          <div class="mt-auto pt-4 text-end text-primary">Acessar <i class="fas fa-arrow-right"></i></div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-auto">
+    <div class="bg-white border-t border-gray-200 py-6">
+      <div class="max-w-7xl mx-auto px-4">
+        <p class="text-center text-gray-500">Projeto acadêmico – UFFS | Ciência da Computação | ODS 4.</p>
+
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

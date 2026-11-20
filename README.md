@@ -46,3 +46,16 @@ Por padrão, a aplicação fica disponível em http://localhost:5173.
     ├── style.css
     └── assets/      # imagens e ícones
 ```
+
+## Justificativa palheta de cores
+
+A paleta usa tons de ciano e azul-petróleo, cores associadas à calma, à confiança e à segurança. Como o site orienta pessoas idosas a usar ferramentas digitais com segurança, essas cores reforçam essa sensação. Tons de azul também são usados em serviços públicos digitais, como o gov.br.
+
+| Cor               | Uso                                                    |
+|-------------------|--------------------------------------------------------|
+| #1B5159           | textos, títulos e botões (contraste ~8,9:1 com branco) |
+| #0E7C8C           | cor principal, em textos grandes e destaques           |
+| #79E2F2           | detalhes decorativos                                   |
+| #E5FCFF | fundos de seções                                       |
+
+*Paleta gerada com o [Adobe Color](https://color.adobe.com) a partir da [imagem de destaque do site](https://pixabay.com/pt/illustrations/cibernético-segurança-em-formação-4084714/), disponível no Pixabay.*
