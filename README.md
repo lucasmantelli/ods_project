@@ -38,13 +38,23 @@ Por padrão, a aplicação fica disponível em http://localhost:5173.
 
 ```
 .
-├── index.html       # ponto de entrada HTML
-├── public/          # arquivos estáticos
+├── index.html          # página inicial
+├── tutorials.html      # busca de tutoriais
+├── artigo.html         # detalhe de um tutorial
+├── golpes.html         # busca de golpes
+├── golpe.html          # detalhe de um golpe
+├── glossario.html      # glossário
+├── sobre.html          # página sobre o projeto
+├── articles.json       # conteúdo dos tutoriais e golpes
+├── vite.config.ts      # configuração do Vite (com Tailwind CSS)
+├── package.json
 └── src/
-    ├── main.js      # ponto de entrada JavaScript
-    ├── counter.js
+    ├── articleSearch.js  # busca e listagem de tutoriais
+    ├── articleSetup.js   # carrega o conteúdo das páginas de detalhe
+    ├── scamSearch.js     # busca e listagem de golpes
+    ├── scamSetup.js
     ├── style.css
-    └── assets/      # imagens e ícones
+    └── assets/           # imagens
 ```
 
 ## Justificativa palheta de cores
