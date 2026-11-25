@@ -8,10 +8,11 @@
 - [Vite](https://vite.dev/) — bundler e servidor de desenvolvimento
 - JavaScript (ES Modules)
 - HTML e CSS
+- [Tailwind CSS](https://tailwindcss.com/) — estilização via classes utilitárias
 
 ## Pré-requisitos
 
-- [Node.js](https://nodejs.org/) (versão LTS recomendada)
+- [Node.js](https://nodejs.org/) (LTS)
 - npm
 
 ## Como rodar
@@ -50,14 +51,14 @@ Por padrão, a aplicação fica disponível em http://localhost:5173.
 ├── package.json
 └── src/
     ├── articleSearch.js  # busca e listagem de tutoriais
-    ├── articleSetup.js   # carrega o conteúdo das páginas de detalhe
+    ├── articleSetup.js   # carrega o conteúdo da página de detalhe de tutorial
     ├── scamSearch.js     # busca e listagem de golpes
-    ├── scamSetup.js
+    ├── scamSetup.js      # carrega o conteúdo da página de detalhe de golpe
     ├── style.css
     └── assets/           # imagens
 ```
 
-## Justificativa palheta de cores
+## Justificativa da paleta de cores
 
 A paleta usa tons de ciano e azul-petróleo, cores associadas à calma, à confiança e à segurança. Como o site orienta pessoas idosas a usar ferramentas digitais com segurança, essas cores reforçam essa sensação. Tons de azul também são usados em serviços públicos digitais, como o gov.br.
 
@@ -65,7 +66,6 @@ A paleta usa tons de ciano e azul-petróleo, cores associadas à calma, à confi
 |-------------------|--------------------------------------------------------|
 | #1B5159           | textos, títulos e botões (contraste ~8,9:1 com branco) |
 | #0E7C8C           | cor principal, em textos grandes e destaques           |
-| #79E2F2           | detalhes decorativos                                   |
-| #E5FCFF | fundos de seções                                       |
+| #E5FCFF           | fundos de seções                                       |
 
 *Paleta gerada com o [Adobe Color](https://color.adobe.com) a partir da [imagem de destaque do site](https://pixabay.com/pt/illustrations/cibernético-segurança-em-formação-4084714/), disponível no Pixabay.*
