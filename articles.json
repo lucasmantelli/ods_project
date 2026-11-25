@@ -1,11 +1,28 @@
 [
   {
-    "id": "",
-    "type": "",
-    "imagem": "",
-    "titulo": "",
-    "autor": "",
-    "data": "",
-    "html": ""
+    "id": "pix",
+    "type": "article",
+    "imagem": "/src/assets/pix.jpeg",
+    "titulo": "Como usar o Pix",
+    "autor": "Lucas Molozzi Mantelli",
+    "data": "2026-11-25",
+    "html": "<p><strong>O Pix é uma forma de enviar e receber dinheiro pelo celular.</strong> Ele é gratuito para pessoas, funciona\n  24 horas por dia, todos os dias (inclusive sábados, domingos e feriados), e o dinheiro chega na hora.</p>\n\n<p>Ele foi criado pelo Banco Central do Brasil e funciona em todos os bancos. Você só precisa ter uma conta em banco e o\n  aplicativo do seu banco instalado no celular.</p>\n\n<h2>O que é uma chave Pix?</h2>\n<p>A chave Pix é a responsavel por indentificar quem receberá a transferência. Ela pode ser:</p>\n<ul>\n  <li><strong>CPF</strong></li>\n  <li><strong>Número de celular</strong></li>\n  <li><strong>E-mail</strong></li>\n  <li><strong>Chave aleatória</strong>: uma sequência de letras e números criada pelo banco</li>\n</ul>\n<p>Você pode passar sua chave para outras pessoas sem medo. Com ela, a pessoa só consegue <strong>enviar</strong>\n  dinheiro para você, nunca tirar.</p>\n\n<h2>Como cadastrar sua chave Pix</h2>\n<ol>\n  <li>Abra o aplicativo do seu banco e entre na sua conta.</li>\n  <li>Toque na opção <strong>Pix</strong>.</li>\n  <li>Procure a opção <strong>Minhas chaves</strong> ou <strong>Cadastrar chave</strong>.</li>\n  <li>Escolha o tipo de chave (por exemplo, seu CPF ou celular).</li>\n  <li>Confirme. Em alguns casos, o banco pode enviar um código para confirmar que a chave é sua.</li>\n</ol>\n\n<h2>Como enviar um Pix</h2>\n<ol>\n  <li>Abra o aplicativo do seu banco.</li>\n  <li>Toque em <strong>Pix</strong> e depois em <strong>Pagar</strong> ou <strong>Transferir</strong>.</li>\n  <li>Escolha como vai informar quem recebe:\n    <ul>\n      <li><strong>Chave Pix</strong></li>\n      <li><strong>QR Code</strong></li>\n      <li><strong>Pix Copia e Cola</strong></li>\n    </ul>\n  </li>\n  <li>Digite o valor.</li>\n  <li><strong>Confira as informações</strong> antes de enviar.</li>\n  <li>Confirme com sua senha ou digital.</li>\n  <li>Salve o comprovante.</li>\n  <li>Concluido.</li>\n</ol>\n\n<p>Atenção: O pix <strong>não</strong> é reversível.\n</p>\n\n<h2>Como receber um Pix</h2>\n<p>Basta passar sua chave Pix para a pessoa que vai pagar. O dinheiro aparece no seu saldo em poucos segundos. Você não\n  precisa fazer nada.</p>\n\n<p>Para saber mais, visite a página oficial do Pix no <a href=\"https://www.bcb.gov.br/estabilidadefinanceira/pix\">site\n    do Banco Central</a>.</p>"
+  },
+  {
+    "id": "gov",
+    "type": "article",
+    "imagem": "/src/assets/gov.png",
+    "titulo": "Como acessar o gov.br",
+    "autor": "Lucas Molozzi Mantelli",
+    "data": "2026-11-25",
+    "html": "<p><strong>O gov.br é a sua conta para acessar serviços do governo pela internet.</strong> Com um único login, você usa\n  centenas de serviços sem precisar ir a um posto de atendimento.</p>\n\n<h2>O que dá para fazer com o gov.br?</h2>\n<ul>\n  <li>Consultar e pedir benefícios no <strong>Meu INSS</strong> (aposentadoria, extrato, prova de vida);</li>\n  <li>Ver a <strong>Carteira de Trabalho Digital</strong>;</li>\n  <li>Acessar a <strong>CNH Digital</strong> (carteira de motorista);</li>\n  <li>Ver vacinas e consultas no aplicativo <strong>Meu SUS Digital</strong>;</li>\n  <li>Consultar o Imposto de Renda e valores a receber, entre outros.</li>\n</ul>\n\n<h2>O que você precisa</h2>\n<ul>\n  <li>Seu <strong>CPF</strong>;</li>\n  <li>Um <strong>celular</strong> ou <strong>e-mail</strong> para receber códigos de confirmação;</li>\n  <li>Internet no celular ou no computador.</li>\n</ul>\n\n<h2>Como criar sua conta</h2>\n<ol>\n  <li>Abra o site <a href=\"https://www.gov.br\">www.gov.br</a> ou baixe o aplicativo <strong>gov.br</strong> na loja do\n    seu celular (Play Store ou App Store).</li>\n  <li>Toque em <strong>Entrar com gov.br</strong>.</li>\n  <li>Digite seu CPF e toque em <strong>Continuar</strong>.</li>\n  <li>Escolha uma das formas de validação mostradas (por exemplo, reconhecimento facial ou pelo seu banco).</li>\n  <li>Informe seu celular ou e-mail e digite o código que chegar.</li>\n  <li>Crie uma senha.</li>\n</ol>\n\n<h2>Como entrar na sua conta</h2>\n<ol>\n  <li>No site ou no aplicativo, toque em <strong>Entrar com gov.br</strong>.</li>\n  <li>Digite seu CPF.</li>\n  <li>Digite sua senha.</li>\n  <li>Se a verificação em duas etapas estiver ativa, digite o código mostrado no aplicativo gov.br.</li>\n</ol>\n\n<h2>Esqueci minha senha</h2>\n<ol>\n  <li>Na tela de login, digite seu CPF.</li>\n  <li>Toque em <strong>Esqueci minha senha</strong>.</li>\n  <li>Escolha como recuperar: por celular, e-mail, banco ou reconhecimento facial.</li>\n  <li>Siga as instruções e crie uma senha nova.</li>\n</ol>"
+  },
+  {
+    "id": "falso-parente",
+    "type": "scam",
+    "titulo": "Golpe do falso parente",
+    "autor": "Lucas Molozzi Mantelli",
+    "data": "2026-11-25",
+    "html": "<p><strong>No golpe do falso parente, o golpista finge ser alguém da sua família para pedir um Pix.</strong></p>\n\n<h2>Como o golpe funciona</h2>\n<p>Você recebe uma mensagem de um número desconhecido, com a foto de um filho, neto ou amigo:</p>\n<blockquote>\n  <p>\"Oi, mãe, troquei de número. Pode me fazer um Pix urgente? Depois te devolvo.\"</p>\n</blockquote>\n<p>Em casos como esse, o número do seu parente pode ter sido clonado por um golpista. Ou o golpista conseguiu a foto\n  dele via redes sociais.</p>\n\n<h2>Como se proteger</h2>\n<ol>\n  <li>Não faça o Pix na hora.</li>\n  <li><strong>Ligue para o número antigo</strong> da pessoa e confirme se foi ela mesma.</li>\n  <li>Se não conseguir falar, faça uma pergunta que só ela saberia responder.</li>\n</ol>\n\n<p>Atenção: o Pix <strong>não</strong> pode ser cancelado depois de enviado. Na dúvida, não envie.</p>\n\n<h2>O que fazer quando cair no golpe</h2>\n<p><strong>Ligue para o seu banco imediatamente</strong> e conte o que aconteceu. Quanto mais rápido, maior a chance de\n  recuperar o dinheiro.</p>"
   }
 ]
