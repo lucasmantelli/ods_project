@@ -20,6 +20,7 @@
   {
     "id": "falso-parente",
     "type": "scam",
+    "imagem": "/src/assets/whatsapp.jpg",
     "titulo": "Golpe do falso parente",
     "autor": "Lucas Molozzi Mantelli",
     "data": "2026-11-25",
